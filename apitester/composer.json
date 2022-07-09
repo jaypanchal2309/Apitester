@@ -1,0 +1,28 @@
+{
+    "name": "jaypanchal/apitester",
+    "description": "You can call APIs using this laravel package",
+    "require": {
+        "guzzlehttp/psr7": "2.4.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jaypanchal\\Apitester\\": "src/"
+        }
+    },
+    "keywords": [
+        "apitester",
+        "test api online",
+        "api",
+        "laravel",
+        "rest",
+        "api checker"
+    ],
+    "authors": [
+        {
+          "name": "Jay Panchal",
+          "email": "jaypanchal2309@gmail.com",
+          "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev"
+}
