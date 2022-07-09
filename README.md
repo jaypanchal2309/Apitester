@@ -26,6 +26,12 @@ echo $apitester;
 ```
 
 
+## Screenshots
+- in output, you will get this UI:
+
+![App Screenshot](https://i.imgur.com/CKYHwSd.png)
+
+
 ## Authors
 
 - [@jaypanchal](https://www.linkedin.com/in/jay-panchal-51324a165)
