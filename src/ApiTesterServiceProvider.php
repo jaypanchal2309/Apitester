@@ -15,7 +15,7 @@ class ApiTesterServiceProvider extends ServiceProvider
     {
         $this->app->make('Jaypanchal\Apitester\APITestingController');
         
-    }
+    } 
 
     /**
      * Bootstrap services.
