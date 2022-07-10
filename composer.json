@@ -17,6 +17,7 @@
         "rest",
         "api checker"
     ],
+    "license": "MIT",
     "authors": [
         {
           "name": "Jay Panchal",
