@@ -2,7 +2,7 @@
     "name": "jaypanchal/apitester",
     "description": "You can call APIs using this laravel package",
     "require": {
-        "guzzlehttp/psr7": "2.4.x-dev"
+        
     },
     "autoload": {
         "psr-4": {
@@ -15,7 +15,9 @@
         "api",
         "laravel",
         "rest",
-        "api checker"
+        "api checker",
+        "jay panchal",
+        "jaypanchal"
     ],
     "license": "MIT",
     "authors": [

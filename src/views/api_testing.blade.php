@@ -1,8 +1,8 @@
 <style><?php echo file_get_contents($bootstrapCss); ?></style>
 
 <div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
+    <div class="row ">
+        <div class="col-md-6">
             <div class="card">
                 <div class="card-header">{{ __('API Testing') }}</div>
   
@@ -85,6 +85,9 @@
                 </div>
             </div>
 
+            
+        </div>
+        <div class="col-md-6">
             <div class="card">
                 <div class="card-header">{{ __('API Output') }}</div>
   
@@ -111,9 +114,9 @@
             data: form.serialize(),
             success: function(data)
             {
-                
+                data = JSON.parse(data);
                 var jsonPretty = JSON.stringify(data,undefined, 2);
-                $('#apiOutput2309').html("<pre>"+jsonPretty+"</pre>");
+                $('#apiOutput2309').html("<pre style='max-height: 500px; overflow-y: auto;'>"+jsonPretty+"</pre>");
                 $.unblockUI();
                 document.getElementById('apiOutput2309').scrollIntoView({behavior: "smooth"});
             },
