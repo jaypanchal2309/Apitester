@@ -32,7 +32,7 @@ echo $apitester;
 ## Output
 - in output, you will get this UI:
 
-![App Screenshot](https://i.imgur.com/CKYHwSd.png)
+![App Screenshot](https://i.imgur.com/qVReOin.png)
 
 ## Usage
 - You need to enter your api in Url field.
