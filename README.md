@@ -1,5 +1,5 @@
 # Apitester
-The name of this package it self describes the usage of the package. You can call APIs using this laravel package.
+The name of this package it self describes the usage of the package. You can test APIs using this laravel package.
 
 First, we will see the Installation part and after that, we will move on: "How to use" part.
 

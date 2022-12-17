@@ -1,6 +1,6 @@
 {
     "name": "jaypanchal/apitester",
-    "description": "You can call APIs using this laravel package",
+    "description": "You can test APIs in your laravel app using this package.",
     "require": {
         
     },
