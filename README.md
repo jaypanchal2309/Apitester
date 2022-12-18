@@ -44,13 +44,6 @@ echo $apitester;
 - You can pass parameter for that API same way we are passing headers.
 - When you done with your headers and parameters, then you need to click "Call API" button to see your api output in "API Output" box.
 
-```laravel
-use Jaypanchal\Apitester\ApiTester;
-
-$apitester = ApiTester::loadTester();
-echo $apitester;
-
-```
 
 
 ## Authors
